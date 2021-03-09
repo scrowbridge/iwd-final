@@ -41,7 +41,15 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://scrowbridge.bitlampsites.com/wpd/final/wordpress/"
+          "homepage": "sample-page",
+          "url": "https://scrowbridge.bitlampsites.com/wpd/final/wordpress/",
+          "postTypes": [
+            {
+              type: "books",
+              endpoint: "books",
+              archive: "/book"
+            }
+          ]
         }
       }
     },
