@@ -1,15 +1,21 @@
 import Root from "./components"
 
 const books = {
-  name: "my-first-theme",
+  name: "books",
   roots: {
     theme: Root,
   },
   state: {
-    theme: {},
+    theme: {
+      isUrlVisible: false,
+    },
   },
   actions: {
-    theme: {},
+    theme: {
+      toggleUrl: ({state}) => {
+        state.theme.isUrlVisible = !state.theme.isUrlVisible
+      },
+    },
   },
 }
 
