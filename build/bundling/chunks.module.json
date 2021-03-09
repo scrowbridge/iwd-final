@@ -1,0 +1,114 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "644339cca9affed06667",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\Sara\\Desktop\\iwd\\final\\final-frontity\\build\\static",
+  "assetsByChunkName": {
+    "final-frontity": [
+      "final-frontity.module.js",
+      "final-frontity.4b378e7581168deb3090.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "4b378e7581168deb3090.hot-update.json",
+      "size": 56,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "final-frontity.4b378e7581168deb3090.hot-update.js",
+      "size": 5027,
+      "chunks": [
+        "final-frontity"
+      ],
+      "chunkNames": [
+        "final-frontity"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "final-frontity.module.js",
+      "size": 6184952,
+      "chunks": [
+        "final-frontity"
+      ],
+      "chunkNames": [
+        "final-frontity"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "final-frontity": {
+      "chunks": [
+        "final-frontity"
+      ],
+      "assets": [
+        "final-frontity.module.js",
+        "final-frontity.4b378e7581168deb3090.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "final-frontity": {
+      "chunks": [
+        "final-frontity"
+      ],
+      "assets": [
+        "final-frontity.module.js",
+        "final-frontity.4b378e7581168deb3090.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "final-frontity",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1520477,
+      "names": [
+        "final-frontity"
+      ],
+      "files": [
+        "final-frontity.module.js",
+        "final-frontity.4b378e7581168deb3090.hot-update.js"
+      ],
+      "hash": "21a5bb3659fa1621d5a3",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
