@@ -1,8 +1,13 @@
 import React from "react"
 import { connect } from "frontity"
 import Link from "@frontity/components/link"
+import Switch from "@frontity/components/switch"
+import List from "./list"
+import Post from "./post"
+import Page from "./page"
 
 const Root = ({state}) => {
+    const data = state.source.get(state.router.link)
     return (
         <>
             <h1>Nicholas Sparks Books</h1>
@@ -16,6 +21,14 @@ const Root = ({state}) => {
                 <br />
                 <Link link="/contact">Contact Us</Link>
             </nav>
+            <hr />
+            <main>
+                <Switch>
+                    <List when={data.isArchive} />
+                    <Post when={data.isPost} />
+                    <Page when={data.isPage} />
+                </Switch>
+            </main>
         </>
     )
 }
